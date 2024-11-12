@@ -1,0 +1,29 @@
+.btn{
+    justify-content: end;
+    button{
+        padding:0.5rem 1rem;
+        border: none;
+
+    }
+}
+.list{
+    
+    background-color: azure;
+    
+    color: grey;
+    li{
+        list-style: none;
+    }
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+.app{
+    width: 80%;
+    margin: 0 auto;
+
+}
